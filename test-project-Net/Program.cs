@@ -10,6 +10,10 @@ namespace test_project_Net
             var content = dataReader.ReadData();
 
             Console.WriteLine(content);
+
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key to continue");
             Console.ReadKey();
         }
     }
