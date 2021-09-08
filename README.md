@@ -1,8 +1,6 @@
 # doctari .Net test project
 ## Description
-Create a tool which presents the given test data in `data/testdaten.txt` in an user interface.
-In addition, the tool must be able to display the federal states of Germany (Bundesland) for each of the records.
-Request the GoogleMaps Geocoding API to get the federal states.
+Create a tool which presents the given test data in `data/testdaten.txt` in an user interface (any UI framework or text output is fine). In addition, the tool must be able to display the federal states of Germany (Bundesland) for each of the records. Request the GoogleMaps Geocoding API to get the federal states.
 *Hint: In Germany, the zip code is clearly assigned to a federal state.*
 
 `https://maps.googleapis.com/maps/api/geocode/json?address=<ADRESS>&key=<GOOGLE_API_KEY>`
